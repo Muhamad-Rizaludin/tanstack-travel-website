@@ -63,3 +63,6 @@ coverage/
 .DS_Store
 Thumbs.db
 Desktop.ini
+
+# Netlify local state
+.netlify/

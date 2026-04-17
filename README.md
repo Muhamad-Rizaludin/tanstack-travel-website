@@ -64,3 +64,13 @@ src/
 - Set `NODE_ENV=production` pada environment deploy.
 - Jalankan build di pipeline dan deploy artefak hasil build sesuai target hosting Anda.
 
+## Auto Deploy Ke Netlify (Push ke main)
+
+Project ini sudah punya workflow GitHub Actions: `.github/workflows/netlify-deploy.yml`.
+
+Agar setiap push ke branch `main` langsung deploy ke production Netlify, set GitHub repository secrets berikut:
+
+- `NETLIFY_AUTH_TOKEN`: Personal Access Token Netlify
+- `NETLIFY_SITE_ID`: `fddf085f-93b6-4adb-a2fd-8f58c923cc3e`
+
+Lokasi setting secret: `GitHub Repository -> Settings -> Secrets and variables -> Actions`.

@@ -71,6 +71,6 @@ Project ini sudah punya workflow GitHub Actions: `.github/workflows/netlify-depl
 Agar setiap push ke branch `main` langsung deploy ke production Netlify, set GitHub repository secrets berikut:
 
 - `NETLIFY_AUTH_TOKEN`: Personal Access Token Netlify
-- `NETLIFY_SITE_ID`: `fddf085f-93b6-4adb-a2fd-8f58c923cc3e`
+- `NETLIFY_SITE_ID`: `youre-site-id`
 
 Lokasi setting secret: `GitHub Repository -> Settings -> Secrets and variables -> Actions`.
